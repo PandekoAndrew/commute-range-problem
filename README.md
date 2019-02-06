@@ -38,7 +38,7 @@ Uncomment `mongo-seed` block in `docker-compose.yaml` before starting if you wan
 
 ## Example
 
-###Dataset example:
+### Dataset example:
 ```json
 [
     { "cities" : [ "London", "Birmingham" ], "time" : 900 },
@@ -48,12 +48,12 @@ Uncomment `mongo-seed` block in `docker-compose.yaml` before starting if you wan
 ]
 ```
 
-###Input example:
+### Input example:
 
 ```GET localhost:8080/api?city=London&time=2000```
 
 
-###Output example:
+### Output example:
 ```json
 [
     "Manchester",
