@@ -1,0 +1,41 @@
+buildscript {
+    ext {
+        springBootVersion = '2.1.2.RELEASE'
+    }
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath("org.springframework.boot:spring-boot-gradle-plugin:${springBootVersion}")
+    }
+}
+
+apply plugin: 'java'
+apply plugin: 'org.springframework.boot'
+apply plugin: 'io.spring.dependency-management'
+
+group = 'com.example.commuterange'
+version = '0.0.1-SNAPSHOT'
+sourceCompatibility = '1.8'
+
+repositories {
+    mavenCentral()
+}
+
+ext {
+    jacksonVersion = '2.9.7'
+    jedisVersion = '2.9.0'
+    testNgVersion = '6.8'
+}
+
+dependencies {
+    implementation "org.springframework.data:spring-data-mongodb"
+    implementation "org.springframework.boot:spring-boot-starter-jersey"
+    implementation "com.fasterxml.jackson.core:jackson-databind:$jacksonVersion"
+    implementation "org.springframework.boot:spring-boot-starter-web"
+    implementation "org.springframework.data:spring-data-redis"
+    implementation "redis.clients:jedis:$jedisVersion"
+    testImplementation 'org.springframework.boot:spring-boot-starter-test'
+    testCompile "com.google.guava:guava:27.0.1-jre"
+    testCompile "org.testng:testng:$testNgVersion"
+}

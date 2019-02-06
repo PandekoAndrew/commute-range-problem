@@ -1,0 +1,79 @@
+[
+  {
+    "cities": [
+      "London",
+      "Birmingham"
+    ],
+    "time": 900
+  },
+  {
+    "cities": [
+      "Manchester",
+      "Birmingham"
+    ],
+    "time": 1000
+  },
+  {
+    "cities": [
+      "Manchester",
+      "Leeds"
+    ],
+    "time": 300
+  },
+  {
+    "cities": [
+      "London",
+      "Edinburgh"
+    ],
+    "time": 2400
+  },
+  {
+    "cities": [
+      "Liverpool",
+      "Birmingham"
+    ],
+    "time": 600
+  },
+  {
+    "cities": [
+      "Liverpool",
+      "Manchester"
+    ],
+    "time": 200
+  },
+  {
+    "cities": [
+      "Edinburgh",
+      "Liverpool"
+    ],
+    "time": 700
+  },
+  {
+    "cities": [
+      "Dublin",
+      "Galway"
+    ],
+    "time": 300
+  },
+  {
+    "cities": [
+      "Galway",
+      "Limerick"
+    ],
+    "time": 400
+  },
+  {
+    "cities": [
+      "Limerick",
+      "Dublin"
+    ],
+    "time": 500
+  },
+  {
+    "cities": [
+      "Galway",
+      "Westport"
+    ],
+    "time": 650
+  }
+]
